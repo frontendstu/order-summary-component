@@ -6,4 +6,12 @@
   border-radius: var.$card-radius;
   box-shadow: var.$card-shadow;
   background-color: var.$card-bg;
+
+  &__img-holder {
+    img {
+      border-radius: var.$card-img-radius;
+      width: 100%;
+      height: auto;
+    }
+  }
 }
