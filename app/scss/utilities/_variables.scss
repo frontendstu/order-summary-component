@@ -25,6 +25,11 @@ $copy-font-weight: $font-weight-medium;
 $copy-font-size: func.getRem(16);
 $copy-font-family: $font-family-primary;
 
+// ---------- GLOBALS
+$body-bg: $colour-primary-100;
+$body-bg-img: url('../../../images/pattern-background-mobile.svg');
+$body-bg-position: 0 0;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
