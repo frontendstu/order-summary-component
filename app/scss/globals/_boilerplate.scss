@@ -2,3 +2,16 @@
 @use '../utilities/variables' as var;
 
 @import url(var.$font-url);
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: var.$body-bg;
+  background-image: var.$body-bg-img;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: var.$body-bg-position;
+  color: var.$copy-colour;
+  line-height: var.$copy-leading;
+  font: var.$copy-font-weight var.$copy-font-size var.$copy-font-family;
+}
