@@ -1,5 +1,14 @@
 @use 'functions' as func;
 
+// ---------- COLOURS
+$colour-primary-100: hsl(225, 100%, 94%);
+$colour-primary-700: hsl(245, 75%, 52%);
+
+$colour-neutral-100: hsl(0, 0%, 100%);
+$colour-neutral-150: hsl(225, 100%, 98%);
+$colour-neutral-300: hsl(224, 23%, 55%);
+$colour-neutral-800: hsl(223, 47%, 23%);
+
 // ---------- TYPOGRAPHY
 $font-url: '';
 
