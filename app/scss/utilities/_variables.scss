@@ -18,6 +18,13 @@ $font-weight-black: 900;
 
 $font-family-primary: 'Red Hat Display', sans-serif;
 
+// ----- Copy
+$copy-colour: $colour-neutral-300;
+$copy-leading: 25px;
+$copy-font-weight: $font-weight-medium;
+$copy-font-size: func.getRem(16);
+$copy-font-family: $font-family-primary;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
