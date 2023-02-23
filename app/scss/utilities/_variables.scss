@@ -38,6 +38,15 @@ $body-bg: $colour-primary-100;
 $body-bg-img: url('../../../images/pattern-background-mobile.svg');
 $body-bg-position: 0 0;
 
+// ----- Links
+$link-transition: 150ms ease-in-out;
+$link-transition-property: text-decoration color background-color;
+$link-colour: $colour-primary-700;
+$link-colour-active: $colour-primary-400;
+$link-font-weight: $font-weight-bold;
+$link-decoration: underline;
+$link-decoration-active: none;
+
 // ---------- COMPONENTS
 
 // ----- Card
