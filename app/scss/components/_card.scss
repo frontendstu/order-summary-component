@@ -24,3 +24,30 @@
     }
   }
 }
+
+.plan-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: var.$plan-box-padding;
+  margin-top: var.$plan-box-margin-top;
+  border-radius: var.$plan-box-radius;
+  background-color: var.$plan-box-bg;
+
+  p {
+    margin-top: 0;
+  }
+
+  &-left {
+    text-align: left;
+  }
+
+  &-centre {
+    text-align: center;
+  }
+
+  &-right {
+    text-align: right;
+  }
+}
