@@ -62,6 +62,12 @@ $card-img-radius: $card-radius $card-radius 0 0;
 $card-body-padding: func.getRem(38) func.getRem(32);
 $card-body-text: func.getRem(16);
 
+// --- Plan Box
+$plan-box-padding: func.getRem(17);
+$plan-box-margin-top: func.getRem(24);
+$plan-box-radius: 11px;
+$plan-box-bg: $colour-neutral-150;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
