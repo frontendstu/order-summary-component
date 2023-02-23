@@ -14,4 +14,13 @@
       height: auto;
     }
   }
+
+  &__body {
+    padding: var.$card-body-padding;
+    text-align: center;
+
+    p {
+      margin-top: var.$card-body-text;
+    }
+  }
 }
