@@ -21,3 +21,16 @@ h1 {
   line-height: var.$heading-leading;
   font: var.$heading-font-weight var.$heading-font-size var.$heading-font-family;
 }
+
+a {
+  transition: var.$link-transition;
+  transition-property: var.$link-transition-property;
+  color: var.$link-colour;
+  font-weight: var.$link-font-weight;
+  text-decoration: var.$link-decoration;
+
+  @include mixin.hover-focus {
+    color: var.$link-colour-active;
+    text-decoration: var.$link-decoration-active;
+  }
+}
