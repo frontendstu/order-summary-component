@@ -78,6 +78,9 @@ $card-img-radius: $card-radius $card-radius 0 0;
 $card-body-padding: func.getRem(38) func.getRem(32);
 $card-body-text: func.getRem(16);
 
+// --- Card Button Holder
+$card-btn-holder-margin-top: func.getRem(32);
+
 // --- Plan Box
 $plan-box-padding: func.getRem(17);
 $plan-box-margin-top: func.getRem(24);
