@@ -51,6 +51,20 @@ $link-decoration-active: none;
 
 // ---------- COMPONENTS
 
+// ----- Buttons
+$btn-padding: func.getRem(15);
+$btn-radius: 11px;
+$btn-colour: $colour-neutral-800;
+$btn-colour-active: $btn-colour;
+$btn-font-weight: $font-weight-black;
+
+// --- Button Primary
+$btn-primary-shadow: 0 20px 20px 0 rgb(56 42 225 / 0.19);
+$btn-primary-bg: $colour-primary-700;
+$btn-primary-bg-active: $colour-primary-400;
+$btn-primary-colour: $colour-neutral-100;
+$btn-primary-colour-active: $colour-neutral-100;
+
 // ----- Card
 $card-width: func.getRem(327);
 $card-radius: 20px;
