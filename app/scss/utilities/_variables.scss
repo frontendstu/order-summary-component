@@ -65,6 +65,12 @@ $btn-primary-bg-active: $colour-primary-400;
 $btn-primary-colour: $colour-neutral-100;
 $btn-primary-colour-active: $colour-neutral-100;
 
+// --- Button Default
+$btn-default-bg: transparent;
+$btn-default-bg-active: transparent;
+$btn-default-colour: $colour-neutral-300;
+$btn-default-colour-active: $colour-neutral-800;
+
 // ----- Card
 $card-width: func.getRem(327);
 $card-radius: 20px;
