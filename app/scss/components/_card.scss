@@ -32,6 +32,10 @@
     padding-bottom: 0;
     margin-top: var.$card-btn-default-margin-top;
   }
+
+  @include mixin.breakpoint(xl) {
+    width: var.$card-width-xl;
+  }
 }
 
 .plan-box {
