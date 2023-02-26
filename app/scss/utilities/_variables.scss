@@ -35,6 +35,9 @@ $heading-font-family: $copy-font-family;
 
 $heading-secondary-font-size: func.getRem(14);
 
+$heading-font-size-xl: func.getRem(28);
+$heading-secondary-font-size-xl: func.getRem(16);
+
 // ---------- GLOBALS
 $body-bg: $colour-primary-100;
 $body-bg-img: url('../../../images/pattern-background-mobile.svg');
