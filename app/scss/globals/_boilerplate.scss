@@ -14,6 +14,10 @@ body {
   color: var.$copy-colour;
   line-height: var.$copy-leading;
   font: var.$copy-font-weight var.$copy-font-size var.$copy-font-family;
+
+  @include mixin.breakpoint(xl) {
+    background-image: var.$body-bg-img-xl;
+  }
 }
 
 h1,
@@ -26,10 +30,18 @@ h2 {
 
 h1 {
   font-size: var.$heading-font-size;
+
+  @include mixin.breakpoint(xl) {
+    font-size: var.$heading-font-size-xl;
+  }
 }
 
 h2 {
   font-size: var.$heading-secondary-font-size;
+
+  @include mixin.breakpoint(xl) {
+    font-size: var.$heading-secondary-font-size-xl;
+  }
 }
 
 a {
