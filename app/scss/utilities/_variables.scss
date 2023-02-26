@@ -91,6 +91,9 @@ $card-img-radius: $card-radius $card-radius 0 0;
 $card-body-padding: func.getRem(28) func.getRem(32);
 $card-body-text: func.getRem(16);
 
+$card-body-padding-xl: func.getRem(45) func.getRem(48);
+$card-body-text-padding-inline-xl: func.getRem(30);
+
 // --- Card Button Holder
 $card-btn-holder-margin-top: func.getRem(32);
 $card-btn-default-margin-top: func.getRem(9);
