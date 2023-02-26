@@ -22,6 +22,14 @@
     p {
       margin-top: var.$card-body-text;
     }
+
+    @include mixin.breakpoint(xl) {
+      padding: var.$card-body-padding-xl;
+
+      p {
+        padding-inline: var.$card-body-text-padding-inline-xl;
+      }
+    }
   }
 
   .card__btn-holder {
