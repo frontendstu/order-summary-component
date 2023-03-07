@@ -2,7 +2,7 @@
 @use '../utilities/mixins' as mixin;
 
 .card {
-  width: var.$card-width;
+  max-width: var.$card-width;
   border-radius: var.$card-radius;
   box-shadow: var.$card-shadow;
   background-color: var.$card-bg;
@@ -42,7 +42,7 @@
   }
 
   @include mixin.breakpoint(xl) {
-    width: var.$card-width-xl;
+    max-width: var.$card-width-xl;
   }
 }
 
