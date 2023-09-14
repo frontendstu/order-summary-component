@@ -8,3 +8,14 @@
  * Solution URL: https://github.com/frontendstu/order-summary-component/
  * Live Site URL: https://frontendstu.github.io/order-summary-component/
  */
+
+:root {
+  /******** Colours */
+  --color-neutral-100: 0, 0%, 100%;
+  --color-neutral-150: 228, 100%, 99%;
+  --color-neutral-200: 225, 100%, 94%;
+  --color-neutral-500: 224, 23%, 55%;
+  --color-neutral-800: 223, 46%, 23%;
+
+  --color-primary-100: 245, 75%, 52%;
+}
