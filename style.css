@@ -98,3 +98,10 @@ body {
   display: grid;
   place-content: center;
 }
+
+/******** Media Query */
+@media (min-width: 90em) {
+  body {
+    --body-bg-img: url('./assets/images/pattern-background-desktop.svg');
+  }
+}
