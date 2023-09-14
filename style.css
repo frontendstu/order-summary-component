@@ -99,6 +99,19 @@ body {
   place-content: center;
 }
 
+a {
+  text-decoration: var(--link-decoration);
+  font-weight: var(--link-fw);
+  color: var(--link-color);
+  transition: var(--link-transition);
+}
+
+a:hover,
+a:focus {
+  text-decoration: var(--link-decoration-active);
+  color: var(--link-color-active);
+}
+
 /******** Media Query */
 @media (min-width: 90em) {
   body {
