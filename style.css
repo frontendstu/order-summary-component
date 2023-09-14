@@ -18,4 +18,17 @@
   --color-neutral-800: 223, 46%, 23%;
 
   --color-primary-100: 245, 75%, 52%;
+
+  /******** Fonts */
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  --fs-100: 0.875rem; /* 14px */
+  --fs-200: 0.9375rem; /* 15px */
+  --fs-300: 1rem; /* 16px */
+  --fs-400: 1.375rem; /* 22px */
+  --fs-500: 1.75rem; /* 28px */
+
+  --ff-primary: 'Red Hat Display', sans-serif;
 }
