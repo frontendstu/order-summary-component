@@ -47,6 +47,16 @@
   --body-color: hsl(var(--color-neutral-500));
   --body-bg: hsl(var(--color-primary-300));
   --body-bg-img: url('./assets/images/pattern-background-mobile.svg');
+
+  /******** Buttons */
+  --btn-fw: var(--fw-black);
+  --btn-color: hsl(var(--color-neutral-100));
+  --btn-color-active: var(--btn-color);
+  --btn-bg: hsl(var(--color-primary-500));
+  --btn-bg-active: hsl(var(--color-primary-400));
+  --btn-radius: 11px;
+  --btn-shadow: 0 20px 20px 0 hsla(245, 75%, 52%, 0.19);
+  --btn-padding: 0.9375rem; /* 15px */
 }
 
 /******** Font Imporrt */
@@ -111,6 +121,25 @@ a:hover,
 a:focus {
   text-decoration: var(--link-decoration-active);
   color: var(--link-color-active);
+}
+
+/******** Buttons */
+.btn {
+  font-weight: var(--btn-fw);
+  color: var(--btn-color);
+  background-color: var(--btn-bg);
+  border-radius: var(--btn-radius);
+  box-shadow: var(--btn-shadow);
+  padding: var(--btn-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover,
+.btn:focus-within {
+  color: var(--btn-color);
+  background-color: var(--btn-bg-active);
 }
 
 /******** Media Queries */
