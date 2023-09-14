@@ -40,4 +40,9 @@
   --link-color: hsl(var(--color-neutral-500));
   --link-color-active: hsl(var(--color-neutral-800));
   --link-transition: 150ms ease-in-out all;
+
+  /******** Boilerplate */
+  --body-font: var(--fw-medium) var(--fs-200) var(--ff-primary);
+  --body-bg: hsl(var(--color-primary-300));
+  --body-bg-img: url('./assets/images/pattern-background-mobile.svg');
 }
