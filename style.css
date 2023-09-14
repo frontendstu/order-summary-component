@@ -46,3 +46,11 @@
   --body-bg: hsl(var(--color-primary-300));
   --body-bg-img: url('./assets/images/pattern-background-mobile.svg');
 }
+
+/******** Font Imporrt */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-display: swap;
+  font-weight: 500 900;
+  src: url('./assets/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
+}
