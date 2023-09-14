@@ -89,3 +89,12 @@ ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
+
+/******** Boilerplate */
+body {
+  font: var(--body-font);
+  color: var(--body-color);
+  background: var(--body-bg) var(--body-bg-img) repeat-x top / contain;
+  display: grid;
+  place-content: center;
+}
