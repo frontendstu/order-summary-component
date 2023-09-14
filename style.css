@@ -17,7 +17,7 @@
   --color-neutral-500: 224, 23%, 55%;
   --color-neutral-800: 223, 46%, 23%;
 
-  --color-primary-300: 345, 83%, 68%;
+  --color-primary-300: 226, 100%, 94%;
   --color-primary-500: 245, 75%, 52%;
 
   /******** Fonts */
@@ -43,6 +43,7 @@
 
   /******** Boilerplate */
   --body-font: var(--fw-medium) var(--fs-200) var(--ff-primary);
+  --body-color: hsl(var(--color-neutral-500));
   --body-bg: hsl(var(--color-primary-300));
   --body-bg-img: url('./assets/images/pattern-background-mobile.svg');
 }
