@@ -113,6 +113,8 @@ a:focus {
 }
 
 /******** Media Query */
+
+/****** 1440px */
 @media (min-width: 90em) {
   body {
     --body-bg-img: url('./assets/images/pattern-background-desktop.svg');
