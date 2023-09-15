@@ -262,4 +262,17 @@ a:focus {
   .order-summary__details {
     --order-summary-details-padding: 1.5rem; /* 24px */
   }
+
+  .order-summary__details-plan {
+    --order-summary-plan-fs: var(--fs-300);
+    --order-summary-plan-gap: 3.375rem;
+
+    font-size: var(--order-summary-plan-fs);
+  }
+
+  .order-summary__details-plan a {
+    --order-summary-plan-link-fs: var(--fs-100);
+
+    font-size: var(--order-summary-plan-link-fs);
+  }
 }
