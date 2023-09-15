@@ -94,6 +94,12 @@
 
   /****** Order Summary Actions */
   --order-summary-actions-row-gap: 1.5rem; /* 24px */
+
+  /******** Attribution */
+  --attribution-font: var(--fw-medium) var(--fs-100) var(--ff-primary);
+  --attribution-color: hsla(var(--color-neutral-800), 0.3);
+  --attribution-margin-top: 2rem; /* 32px */
+  --attribution-link-decoration-active: underline;
 }
 
 /******** Font Imporrt */
@@ -246,6 +252,20 @@ a:focus {
   display: flex;
   flex-direction: column;
   row-gap: var(--order-summary-actions-row-gap);
+}
+
+/******** Attribution */
+.attribution,
+.attribution a {
+  text-align: center;
+  font: var(--attribution-font);
+  color: var(--attribution-color);
+  margin-top: var(--attribution-margin-top);
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  text-decoration: var(--attribution-link-decoration-active);
 }
 
 /******** Media Queries */
