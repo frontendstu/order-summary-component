@@ -71,6 +71,8 @@
   /****** Order Summary Content */
   --order-summary-content-leading: 1.5625em; /* 25px */
   --order-summary-content-padding: 2rem; /* 32px */
+  --order-summary-content-gap: 1.5rem; /* 24px */
+
   --order-summary-content-heading-fs: var(--fs-400);
 
   /****** Order Summary Details */
@@ -194,6 +196,9 @@ a:focus {
   text-align: center;
   line-height: var(--order-summary-content-leading);
   padding: var(--order-summary-content-padding);
+  display: flex;
+  flex-direction: column;
+  gap: var(--order-summary-content-gap);
 }
 
 .order-summary__content .heading {
