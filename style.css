@@ -69,6 +69,7 @@
   --order-summary-max-width: 20.4375rem; /* 327px */
 
   /****** Order Summary Content */
+  --order-summary-content-leading: 1.5625em; /* 25px */
   --order-summary-content-padding: 2rem; /* 32px */
   --order-summary-content-heading-fs: var(--fs-400);
 
@@ -191,6 +192,7 @@ a:focus {
 /****** Order Summary Content */
 .order-summary__content {
   text-align: center;
+  line-height: var(--order-summary-content-leading);
   padding: var(--order-summary-content-padding);
 }
 
