@@ -48,6 +48,9 @@
   --body-bg: hsl(var(--color-primary-300));
   --body-bg-img: url('./assets/images/pattern-background-mobile.svg');
 
+  --heading-fw: var(--fw-black);
+  --heading-color: hsl(var(--color-neutral-800));
+
   /******** Buttons */
   --btn-fw: var(--fw-black);
   --btn-color: hsl(var(--color-neutral-100));
@@ -128,6 +131,11 @@ a:hover,
 a:focus {
   text-decoration: var(--link-decoration-active);
   color: var(--link-color-active);
+}
+
+.heading {
+  font-weight: var(--heading-fw);
+  color: var(--heading-color);
 }
 
 /******** Buttons */
