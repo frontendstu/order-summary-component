@@ -57,6 +57,13 @@
   --btn-radius: 11px;
   --btn-shadow: 0 20px 20px 0 hsla(245, 75%, 52%, 0.19);
   --btn-padding: 0.9375rem; /* 15px */
+
+  /******** Order Summary */
+  --order-summary-fs: var(--fs-200);
+  --order-summary-bg: hsl(var(--color-neutral-100));
+  --order-summary-radius: 20px;
+  --order-summary-box-shadow: 0 40px 40px -20px hsla(228, 87%, 39%, 0.15);
+  --order-summary-max-width: 20.4375rem; /* 327px */
 }
 
 /******** Font Imporrt */
@@ -142,7 +149,25 @@ a:focus {
   background-color: var(--btn-bg-active);
 }
 
+/******** Order Summary */
+.order-summary {
+  background-color: var(--order-summary-bg);
+  border-radius: var(--order-summary-radius);
+  box-shadow: var(--order-summary-box-shadow);
+  overflow: hidden;
+  padding: var(--order-summary-padding);
+  max-width: var(--order-summary-max-width);
+}
+
 /******** Media Queries */
+
+/****** 768px */
+@media (min-width: 48em) {
+  .order-summary {
+    --order-summary-fs: var(--fs-300);
+    --order-summary-max-width: 28.125rem; /* 450px */
+  }
+}
 
 /****** 1440px */
 @media (min-width: 90em) {
