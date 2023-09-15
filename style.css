@@ -67,6 +67,10 @@
   --order-summary-radius: 20px;
   --order-summary-box-shadow: 0 40px 40px -20px hsla(228, 87%, 39%, 0.15);
   --order-summary-max-width: 20.4375rem; /* 327px */
+
+  /****** Order Summary Content */
+  --order-summary-content-padding: 2rem; /* 32px */
+  --order-summary-content-heading-fs: var(--fs-400);
 }
 
 /******** Font Imporrt */
@@ -167,19 +171,35 @@ a:focus {
   max-width: var(--order-summary-max-width);
 }
 
+/****** Order Summary Content */
+.order-summary__content {
+  text-align: center;
+  padding: var(--order-summary-content-padding);
+}
+
+.order-summary__content .heading {
+  font-size: var(--order-summary-content-heading-fs);
+}
+
 /******** Media Queries */
 
 /****** 768px */
 @media (min-width: 48em) {
   .order-summary {
     --order-summary-fs: var(--fs-300);
+    --order-summary-content-padding: 3rem; /* 48px */
     --order-summary-max-width: 28.125rem; /* 450px */
+  }
+
+  .order-summary__content .heading {
+    --order-summary-content-heading-fs: var(--fs-500);
   }
 }
 
 /****** 1440px */
 @media (min-width: 90em) {
   body {
+    --body-fs: var(--fs-200);
     --body-bg-img: url('./assets/images/pattern-background-desktop.svg');
   }
 }
