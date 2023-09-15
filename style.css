@@ -242,6 +242,12 @@ a:focus {
 
 /****** 768px */
 @media (min-width: 48em) {
+  body {
+    --body-fs: var(--fs-300);
+
+    font-size: var(--body-fs);
+  }
+
   .order-summary {
     --order-summary-fs: var(--fs-300);
     --order-summary-content-padding: 3rem; /* 48px */
@@ -260,7 +266,6 @@ a:focus {
 /****** 1440px */
 @media (min-width: 90em) {
   body {
-    --body-fs: var(--fs-200);
     --body-bg-img: url('./assets/images/pattern-background-desktop.svg');
   }
 }
